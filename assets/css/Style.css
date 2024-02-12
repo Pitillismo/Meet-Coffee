@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+    
+
+body{
+    font-family: 'Gowun Dodum', sans-serif;
+    text-align: center;
+    color: #000f08;
+}
+
+nav{
+    background-color: #000f08;
+    color:white;
+    text-align: left;
+    font-size: 25px;
+}
+
+nav li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    text-align: right;
+    background-image: url("../img/bg-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+    text-shadow: 0px 3px 6px #00000080;
+}
+
+header h1{
+    font-size: 60px;
+    font-weight: 900;
+
+}
+
+header h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#ubicacion{
+    padding: 150px;
+}
+
+#ubicacion h2{
+    font-size: 45px;
+    margin: 40px 0px 20px 0px 
+}
+
+#ubicacion p{
+    font-size: 25px;
+}
+
+#proxima-charla{
+    background-color: #a4452c;
+    padding: 100px;
+    color: white;
+}
+
+#proxima-charla img{
+    height: 400px;
+}
+
+#proxima-charla img, .texto{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#proxima-charla .texto{
+    text-align: left;
+    width: 40%;
+    margin-left: 40px;
+}
+
+#proxima-charla .texto h3{
+    font-size: 45px;
+}
+
+#proxima-charla .texto h4{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+
+#proxima-charla .texto h6{
+    font-size: 33px;
+}
+
+
+#proxima-charla .texto span{
+    font-size: 20px;
+}
+
+
+#proxima-charla .texto p{
+    font-size: 25px;
+}
+
+#proxima-charla .texto h6, span, p {
+    font-weight: 100;
+}
+
+#Eventos{
+    padding: 100px;
+}
+
+#Eventos h2{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+#Eventos a{
+    text-decoration: none;
+    color: black;
+}
+
+#Eventos article{
+    display: inline-block;
+    margin: 0px 50px;
+    font-size: 35px;
+}
+
+#Eventos article img{
+    margin-bottom: 45px;
+}
+
+footer{
+    background-color: #000f08;
+    color: white;
+    padding: 120px 100px 100px 100px;
+    font-size: 25px;
+}
+
+footer a{
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+footer p{
+    margin: 40px;
+}
+
+.simposio-vegan{
+    width: 1085px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+.simposio-vegan img{
+    width: 100%;
+    height: 465px;
+    margin: 40px 0;
+}
+
+.simposio-vegan h1{
+    font-size: 45px;
+}
+
+.simposio-vegan h2{
+    font-size: 40px;
+}
+
+.simposio-vegan p{
+    margin: 30px 0;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #000f08;
+}
+
